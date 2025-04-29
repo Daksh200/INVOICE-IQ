@@ -132,16 +132,7 @@ export function AppSidebar({
                     </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
-                {isSelfHosted && (
-                  <SidebarMenuItem>
-                    <SidebarMenuButton asChild>
-                      <Link href="https://vas3k.com/donate/" target="_blank">
-                        <Sparkles />
-                        Thank the author
-                      </Link>
-                    </SidebarMenuButton>
-                  </SidebarMenuItem>
-                )}
+               
                 {!open && (
                   <SidebarMenuItem>
                     <SidebarTrigger />
