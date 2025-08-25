@@ -1,12 +1,12 @@
 services:
   app:
-    image: ghcr.io/vas3k/taxhacker:latest
-    container_name: taxhacker_app
+    image: ghcr.io/vas3k/InvoiceIQ:latest
+    container_name: InvoiceIQ_app
     networks:
-      - taxhacker_network
+      - InvoiceIQ_network
     environment:
       - NODE_ENV=production
-      - BASE_URL=https://taxhacker.app
+      - BASE_URL=https://InvoiceIQ.app
       - DISABLE_SIGNUP=true
       - SELF_HOSTED_MODE=false
       - UPLOAD_PATH=/app/data/uploads
@@ -26,5 +26,5 @@ services:
         max-file: "3"
 
 networks:
-  taxhacker_network:
+  InvoiceIQ_network:
     driver: bridge

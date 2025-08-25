@@ -45,7 +45,7 @@ export const auth = betterAuth({
   },
   advanced: {
     generateId: false,
-    cookiePrefix: "taxhacker",
+    cookiePrefix: "InvoiceIQ",
   },
   databaseHooks: {
     user: {

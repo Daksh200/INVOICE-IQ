@@ -3,7 +3,7 @@ import { Prisma } from "@prisma/client"
 import { cache } from "react"
 
 export const SELF_HOSTED_USER = {
-  email: "taxhacker@localhost",
+  email: "InvoiceIQ@localhost",
   name: "Self-Hosted Mode",
 }
 

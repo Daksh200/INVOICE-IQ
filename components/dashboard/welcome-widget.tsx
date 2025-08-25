@@ -18,7 +18,7 @@ export async function WelcomeWidget() {
       <div className="flex flex-col">
         <CardTitle className="flex items-center justify-between">
           <span className="text-2xl font-bold">
-            <ColoredText>Hey, I&apos;m TaxHacker 👋</ColoredText>
+            <ColoredText>Hey, I&apos;m InvoiceIQ 👋</ColoredText>
           </span>
           <Button
             variant="outline"
@@ -40,7 +40,7 @@ export async function WelcomeWidget() {
           <ul className="mb-5 list-disc pl-5 space-y-1">
             <li>
               <strong>Upload me a photo or a PDF</strong> and I will recognize, categorize and save it as a transaction
-              for your tax advisor.
+              for your invoice advisor.
             </li>
             <li>
               I can <strong>automatically convert currencies</strong> and look up exchange rates for a given date.
@@ -57,7 +57,7 @@ export async function WelcomeWidget() {
             </li>
             <li>
               You can even <strong>create your own new fields</strong> to be analyzed and they will be included in the
-              CSV export for your tax advisor.
+              CSV export for your invoice advisor.
             </li>
             <li>
               I&apos;m still <strong>very young</strong> and can make mistakes. Use me at your own risk!
@@ -65,19 +65,19 @@ export async function WelcomeWidget() {
           </ul>
           <p className="mb-3">
             While I can save you a lot of time in categorizing transactions and generating reports, I still highly
-            recommend giving the results to a professional tax advisor for review when filing your taxes!
+            recommend giving the results to a professional invoice advisor for review when filing your invoices!
           </p>
         </CardDescription>
         <div className="mt-2">
-          <Link href="https://github.com/vas3k/TaxHacker" className="text-blue-500 hover:underline">
+          <Link href="https://github.com/vas3k/InvoiceIQ" className="text-blue-500 hover:underline">
             Source Code
           </Link>
           <span className="mx-2">|</span>
-          <Link href="https://github.com/vas3k/TaxHacker/issues" className="text-blue-500 hover:underline">
+          <Link href="https://github.com/vas3k/InvoiceIQ/issues" className="text-blue-500 hover:underline">
             Request New Feature
           </Link>
           <span className="mx-2">|</span>
-          <Link href="https://github.com/vas3k/TaxHacker/issues" className="text-blue-500 hover:underline">
+          <Link href="https://github.com/vas3k/InvoiceIQ/issues" className="text-blue-500 hover:underline">
             Report a Bug
           </Link>
           <span className="mx-2">|</span>

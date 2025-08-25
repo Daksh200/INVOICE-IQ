@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
             <Image src="/logo/256.png" alt="Logo" width={32} height={32} className="h-8" />
-            <ColoredText className="text-2xl font-bold">TaxHacker</ColoredText>
+            <ColoredText className="text-2xl font-bold">InvoiceIQ</ColoredText>
           </Link>
           <div className="flex gap-4">
             <Link
@@ -31,7 +31,7 @@ export default function LandingPage() {
               🚀 Under Active Development
             </div>
             <h1 className="text-5xl font-bold tracking-tight sm:text-6xl mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent pb-2">
-              Let AI finally care about your taxes, scan your receipts and analyze your expenses
+              Let AI finally care about your Invoices, scan your receipts and analyze your expenses
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               A self-hosted accounting app crafted with love for freelancers and small businesses.
@@ -55,7 +55,7 @@ export default function LandingPage() {
             <div className="absolute inset-0 bg-gradient-to-b from-blue-500/5 to-transparent z-10" />
             <video className="w-full h-auto" autoPlay loop muted playsInline poster="/landing/title.webp">
               <source src="/landing/video.mp4" type="video/mp4" />
-              <Image src="/landing/title.webp" alt="TaxHacker" width={1980} height={1224} priority />
+              <Image src="/landing/title.webp" alt="InvoiceIQ" width={1980} height={1224} priority />
             </video>
           </div>
         </div>
@@ -66,8 +66,8 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="flex flex-col gap-3 mb-4 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-              <span className="text-6xl font-semibold text-muted-foreground">F∗ck Taxes</span>
-              <span className="text-4xl font-bold">TaxHacker can save you time, money and nerves</span>
+              <span className="text-6xl font-semibold text-muted-foreground">leave invoices</span>
+              <span className="text-4xl font-bold">InvoiceIQ can save you time, money and nerves</span>
             </h2>
           </div>
 
@@ -208,7 +208,7 @@ export default function LandingPage() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-center">
                   <span className="text-orange-600 mr-2">✓</span>
-                  Flexible filters to export your data for tax prep
+                  Flexible filters to export your data for invoice prep
                 </li>
                 <li className="flex items-center">
                   <span className="text-orange-600 mr-2">✓</span>
@@ -233,7 +233,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-              Choose Your Version of TaxHacker
+              Choose Your Version of InvoiceIQ
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -264,7 +264,7 @@ export default function LandingPage() {
                 </li>
               </ul>
               <Link
-                href="https://github.com/vas3k/TaxHacker"
+                href="https://github.com/vas3k/InvoiceIQ"
                 target="_blank"
                 className="block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium rounded-full hover:opacity-90 transition-all shadow-lg shadow-blue-500/20"
               >
@@ -345,7 +345,7 @@ export default function LandingPage() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-purple-600 mr-2">→</span>
-                  Recommendations for tax optimization
+                  Recommendations for invoice optimization
                 </li>
                 <li className="flex items-center">
                   <span className="text-purple-600 mr-2">→</span>
@@ -367,7 +367,7 @@ export default function LandingPage() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-purple-600 mr-2">→</span>
-                  Tax reminders
+                  invoice reminders
                 </li>
                 <li className="flex items-center">
                   <span className="text-purple-600 mr-2">→</span>
